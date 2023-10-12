@@ -1,0 +1,27 @@
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
+.stats-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.stats-wrapper h5 {
+  margin-bottom: 3px;
+  text-align: center;
+  font-size: 19px;
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.stats-wrapper p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--Dark-grayish-blue);
+}
